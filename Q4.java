@@ -25,21 +25,26 @@ Determine whether the majority agrees with the proposal.
  * 
  */
 import java.util.Scanner;
-
-import javax.swing.DefaultBoundedRangeModel;
 public class Q4 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int total = scan.nextInt();
+        // System.out.println(total);
         int yes = 0, no = 0;
         for(int i = 0; i < total; i++){
-            String opin = scan.nextLine();
+            String opin = scan.next();
+            // System.out.println("opin = " + opin);
             switch(opin){
                 case "For":
                 yes++;
                 break;
-                default:
+
+                case "Against":
                 no++;
+                break;
+
+                default:
+                break;
             }
             if(yes == total/2+1){
                 System.out.println("Yes");
@@ -48,6 +53,7 @@ public class Q4 {
                 System.out.println("No");
                 break;
             }
+            scan.nextLine();
         }
 
     }
