@@ -58,15 +58,16 @@ public class Q5 {
             String text = scan.next();
             if (map.get(text) == null) {
                 map.put(text, 1);
-            } else {
-                Integer n = map.get(text);
-                n++;
-                map.put(text, n);
-            }
+            } 
+            // else {
+            //     Integer n = map.get(text);
+            //     n++;
+            //     map.put(text, n);
+            // }
         }
         int count = 0;
         for (int i = 0; i < post.size(); i++) {
-            if (map.get(post.get(i)) != null) {
+            if (map.containsKey(post.get(i))) {
                 count++;
             }
         }

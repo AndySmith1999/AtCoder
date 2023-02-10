@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q11",
+            "request": "launch",
+            "mainClass": "Q11",
+            "projectName": "AtCoder_8a788186"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q10",
+            "request": "launch",
+            "mainClass": "Q10",
+            "projectName": "AtCoder_8a788186"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q9",
+            "request": "launch",
+            "mainClass": "Q9",
+            "projectName": "AtCoder_8a788186"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q8",
+            "request": "launch",
+            "mainClass": "Q8",
+            "projectName": "AtCoder_8a788186"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q7",
+            "request": "launch",
+            "mainClass": "Q7",
+            "projectName": "AtCoder_8a788186"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q6",
+            "request": "launch",
+            "mainClass": "Q6",
+            "projectName": "AtCoder_8a788186"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
