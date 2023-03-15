@@ -55,6 +55,6 @@ public class Q4 {
             }
             scan.nextLine();
         }
-
+        scan.close();
     }
 }
